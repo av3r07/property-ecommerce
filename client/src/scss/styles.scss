@@ -1,0 +1,49 @@
+@use './variables/variables.scss' as v;
+@use './header.scss';
+@use './landingpage.scss';
+@use './footer.scss';
+@use './productpage.scss';
+@use './WhiteLintScholar.scss';
+@use './Services.scss';
+@use './Blogs.scss';
+@use './ContactUs.scss';
+@use './AboutUs.scss';
+@use './Login.scss';
+@use './List.scss';
+@use './Navbar.scss';
+
+
+body{
+    background-image: url('../../public/img/Background\ Large\ white\ \(1X\).png');
+    overflow-x: hidden;
+
+}
+
+body.dark-mode {
+    // background-color: v.$dark-base-color;
+    background-image: url('../../public/img/Background Large (1X) new.png');
+    // & .dark {
+    // }
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 3px solid v.$dark-border-color;
+    background: transparent;
+    font-weight: map-get(v.$font-weights, medium);
+    font-family: v.$font-type;
+    color: v.$dark-btn-color;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+button.dark {
+    border: 3px solid white;
+}
+
+button.light {
+    border: 3px solid v.$dark-btn-color;
+}

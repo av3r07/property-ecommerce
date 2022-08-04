@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4f2700c.css",
+    "main.js": "/static/js/main.82b16e67.js",
+    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
+    "static/media/city-bg.png": "/static/media/city-bg.1ed4da772e77bf4af470.png",
+    "static/media/user.jpg": "/static/media/user.a6fc5b9edee3723cf676.jpg",
+    "static/media/Illustration3.svg": "/static/media/Illustration3.787a59ff6379b51cdd6f.svg",
+    "static/media/image1.jpeg": "/static/media/image1.b55f1edace40952fe116.jpeg",
+    "static/media/pingpong.svg": "/static/media/pingpong.c10c9fb8e778163bb4d3.svg",
+    "static/media/parshotam.svg": "/static/media/parshotam.c0dfad4104ae47fbe082.svg",
+    "static/media/captcha.png": "/static/media/captcha.d7282e7c6061c2ade9f1.png",
+    "static/media/Illustration4.jpeg": "/static/media/Illustration4.81432c6014d5ff0e4802.jpeg",
+    "static/media/parvasi.svg": "/static/media/parvasi.31487a6889c3642e3d4d.svg",
+    "static/media/hga.svg": "/static/media/hga.2f301b8388ddf0fe42b4.svg",
+    "static/media/financialGrey.svg": "/static/media/financialGrey.71c3b33fcd8ca66d93d6.svg",
+    "static/media/Financialservices.svg": "/static/media/Financialservices.349c27e18676e319b2dc.svg",
+    "static/media/Illustration1.svg": "/static/media/Illustration1.b4c91066e6ffadcbdf46.svg",
+    "static/media/Realestate.svg": "/static/media/Realestate.7a065524c2ffdde362fd.svg",
+    "static/media/realestateGrey.svg": "/static/media/realestateGrey.a8903770f2145023efa3.svg",
+    "static/media/Illustration2.svg": "/static/media/Illustration2.6f8a11aa441a6332e44f.svg",
+    "static/media/medicalGrey.svg": "/static/media/medicalGrey.6b9d7f71c2866933cfdc.svg",
+    "static/media/Medicalservices.svg": "/static/media/Medicalservices.1e40df9d1b216ea86c79.svg",
+    "static/media/payoneer.svg": "/static/media/payoneer.2ad199f360b56167ffc7.svg",
+    "static/media/ICICI.svg": "/static/media/ICICI.b77887e722493cb5f83e.svg",
+    "static/media/sbi.svg": "/static/media/sbi.d8ad159cca7c591dda56.svg",
+    "index.html": "/index.html",
+    "main.e4f2700c.css.map": "/static/css/main.e4f2700c.css.map",
+    "main.82b16e67.js.map": "/static/js/main.82b16e67.js.map",
+    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4f2700c.css",
+    "static/js/main.82b16e67.js"
+  ]
+}

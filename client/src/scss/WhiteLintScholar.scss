@@ -1,0 +1,470 @@
+@use './variables/variables.scss' as v;
+
+.whitelint {
+    padding: 3rem 0;
+
+    & .content8 {
+        max-width: 75rem;
+        width: calc(100% - 3rem);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        & .whitelintscholar-info {
+            max-width: 60rem;
+            
+            position: relative;
+            h1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: v.$dark-btn-color;
+                padding-top: 4rem;
+                font-weight: 800;
+                font-size: 45px;
+                line-height: 65px;
+               
+            }
+           p.light {
+                color: black;
+                font-size: 18px;
+            }
+
+            p.dark {
+                color: white;
+                font-size: 18px;
+            }
+
+            div:nth-of-type(1) {
+                position: absolute;
+                top: 3rem;
+                right: 24rem;
+
+                img {
+                    opacity: .5;
+                }
+
+                img.dark {
+                filter: unset;
+                
+                }
+                img.light {
+                filter: invert(1);
+                }
+            }
+    
+            div:nth-of-type(2) {
+                display: flex;
+                gap: 1rem;
+            }
+    
+            div:nth-of-type(3) {
+                position: absolute;
+            }
+        }
+        
+        & .logo4 {
+            display: flex;
+            align-items: center;
+            width: 1rem;
+            justify-self: center;
+            position: relative;
+            height: 40px;
+            left: 401px;
+            top: 923px;
+            padding-left: 29rem;
+            border-radius: 0px;
+   
+    
+            div:nth-of-type(1) {
+                img {
+                    opacity: .5;
+                }
+
+                img.dark {
+                    filter: unset;
+                }
+    
+                img.light {
+                    filter: invert(1);
+                }
+            }
+    
+            div:nth-of-type(2) {
+                position: absolute;
+                right: 7rem;
+                top: 4rem;
+
+                img {
+                    opacity: .5;
+                }
+
+                img.dark {
+                    filter: unset;
+                }
+    
+                img.light {
+                    filter: invert(1);
+                }
+            }
+    
+            div:nth-of-type(3) {
+                position: absolute;
+                top: 7rem;
+                left: 9rem;
+
+                img {
+                    opacity: .5;
+                }
+
+                img.dark {
+                    filter: unset;
+                }
+    
+                img.light {
+                    filter: invert(1);
+                }
+            }
+        }
+    }
+
+}
+   .search-scholar{
+    margin-top: 10px;
+    max-width:600px;
+    height: 57px;
+    background-color: azure;
+    border-radius: 15px;
+    margin-left: 150px;
+   }
+   .search-scholar input{
+    width:100%;
+    height: 100%;
+    background-color: azure;
+    border-radius: 15px;
+    margin-left: 50px;
+    outline: none;
+  
+   }
+   .search-scholar button{
+    background-color: #FF4801;
+    color: #fff;
+   }
+
+//  slick slider  csss
+    
+.slick-dots li button::before{
+    color:white;
+}
+    .slick-list{
+    left:50px;
+        height: 450px;
+    }
+    //  slick slider  csss
+    
+    .slick-dots li button{
+        color: aliceblue;
+    }
+      
+   
+
+/* certificate for student */
+.Certificate-section {
+    padding: 4rem 0;
+
+    h1 {
+       text-align: center;
+       margin-bottom: 4rem;
+       font-weight: 500;
+    }
+
+    h1.dark {
+       color: v.$dark-font-color; 
+    }
+
+    h1.light {
+        color: black; 
+     }
+
+    & .content9 {
+        max-width: 75rem;
+        width: calc(100% - 2rem);
+        margin: 0 auto;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        // & .card4 {
+        //     padding: 0 1rem;
+        //     max-width: 20rem;
+        //     border-radius: 20px;
+        //     position: relative;
+
+          
+        //     // border-right: .4rem solid v.$dark-btn-color;
+        //     // border-bottom: .4rem solid v.$dark-btn-color;
+
+        //     &::before {
+        //         content: "";
+        //         width: 100%;
+        //         height: 100%;
+        //         position: absolute;
+        //         top: 0rem;
+        //         z-index: 1;
+        //         border-radius: 25px;
+        //         left: 0rem;
+        //         background: rgba(255, 255, 255, 0.2);
+            //     transform: skewY(5deg);
+            // }
+
+            // &::after {
+            //     content: "";
+            //     width: 100%;
+            //     height: 100%;
+            //     position: absolute;
+            //     top: 0rem;
+            //     z-index: 2;
+            //     border-radius: 25px;
+            //     left: 0rem;
+            //     background: rgba(255, 255, 255, 0.2);
+            //     background: linear-gradient(135.86deg,
+            //             #051341 4.98%,
+                //         #0b055b 70.93%,
+                //         #1501a1 97.42%);
+                // transform: skewY(-5deg);
+            // }
+
+        //     h3 {
+        //         color: v.$dark-btn-color;
+        //         text-align: center;
+        //         position:relative;
+        //         z-index: 3;
+        //     }
+        //     p.dark {
+        //         color: v.$dark-font-color;
+        //         position:relative;
+        //         z-index: 3;
+        //     }
+
+        //     p.light {
+        //         color: white;
+        //         position:relative;
+        //         z-index: 3;
+        //     }
+
+        //     & .logo5 {
+        //         height: 2rem;
+        //         margin: 0 auto;
+        //         position:relative;
+        //         z-index: 3;
+        //     }
+
+       
+
+        // }
+
+
+    }
+}
+
+
+@media screen and (min-width: 1350px) {
+    .hero {
+        & .content {
+    
+            & .hero-info {
+                div:nth-of-type(1) {
+                    position: absolute;
+                    top: 3rem;
+                    right: 32rem;
+                }
+            }
+        }
+    }
+}
+
+/* certficate for professional */
+
+.Certificate-section1 {
+    padding: 4rem 0;
+
+    h1 {
+       text-align: center;
+       margin-bottom: 4rem;
+       font-weight: 500;
+    }
+
+    h1.dark {
+       color: v.$dark-font-color; 
+    }
+
+    h1.light {
+        color: black; 
+     }
+
+    & .content10 {
+        max-width: 75rem;
+        width: calc(100% - 2rem);
+        margin: 0 auto;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & .card5 {
+            padding: 0 1rem;
+            max-width: 20rem;
+            border-radius: 20px;
+            position: relative;
+
+          
+            // border-right: .4rem solid v.$dark-btn-color;
+            // border-bottom: .4rem solid v.$dark-btn-color;
+
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0rem;
+                z-index: 1;
+                border-radius: 25px;
+                left: 0rem;
+                background: rgba(255, 255, 255, 0.2);
+                transform: skewY(5deg);
+            }
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0rem;
+                z-index: 2;
+                border-radius: 25px;
+                left: 0rem;
+                background: rgba(255, 255, 255, 0.2);
+                background: linear-gradient(135.86deg,
+                        #051341 4.98%,
+                        #0b055b 70.93%,
+                        #1501a1 97.42%);
+                transform: skewY(-5deg);
+            }
+
+            h3 {
+                color: v.$dark-btn-color;
+                text-align: center;
+                position:relative;
+                z-index: 3;
+            }
+            p.dark {
+                color: v.$dark-font-color;
+                position:relative;
+                z-index: 3;
+            }
+
+            p.light {
+                color: white;
+                position:relative;
+                z-index: 3;
+            }
+
+            & .logo6 {
+                height: 2rem;
+                margin: 0 auto;
+                position:relative;
+                z-index: 3;
+            }
+
+       
+
+        }
+
+
+    }
+}
+/* our academic partner */
+
+.Certificate-section2 {
+    padding: 4rem 0;
+
+    h1 {
+       text-align: center;
+       margin-bottom: 4rem;
+       font-weight: 500;
+    }
+
+    h1.dark {
+       color: v.$dark-font-color; 
+    }
+
+    h1.light {
+        color: black; 
+     }
+
+    & .content11 {
+        max-width: 75rem;
+        width: calc(100% - 2rem);
+        margin: 0 auto;
+        display: flex;
+ 
+            & .logo7 {
+                // height: 2rem;
+                margin: 0 auto;
+                // position:relative;
+                // z-index: 3;
+                display: flex;
+                justify-content: space-between;
+                gap: 3rem;
+
+            }
+    }
+}
+
+
+@media screen and (min-width: 1350px) {
+    .hero {
+        & .content {
+    
+            & .hero-info {
+                div:nth-of-type(1) {
+                    position: absolute;
+                    top: 3rem;
+                    right: 32rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1350px) {
+    .hero {
+        & .content {
+    
+            & .hero-info {
+                div:nth-of-type(1) {
+                    position: absolute;
+                    top: 3rem;
+                    right: 32rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 786px) {
+    .hero {
+        & .content {
+            & .hero-logo {
+                margin-top: 4rem;
+                position: inherit;
+            }
+        }
+        
+    }
+    
+}

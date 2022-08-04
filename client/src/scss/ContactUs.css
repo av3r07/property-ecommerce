@@ -1,0 +1,178 @@
+.ContactUs-section {
+  padding: 5rem 2px;
+  margin-right: 42rem;
+}
+.ContactUs-section h1 {
+  text-align: center;
+  color: #FF4801;
+  font-family: Poppins;
+  font-size: 47px;
+  font-weight: 341;
+  line-height: 189px;
+  letter-spacing: 0em;
+}
+.ContactUs-section h1.dark {
+  color: #FF4801;
+  padding-right: 13rem;
+}
+.ContactUs-section h1.light {
+  color: #FF4801;
+  padding-right: 13rem;
+}
+.ContactUs-section .content18 {
+  max-width: 150rem;
+  width: calc(100% - 2rem);
+  margin: 3px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ContactUs-section .content18 .card9 {
+  padding: 0 6rem;
+  width: 34rem;
+  position: relative;
+  border-radius: 25px;
+  height: 40rem;
+}
+.ContactUs-section .content18 .card9::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewY(5deg);
+}
+.ContactUs-section .content18 .card9::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 2;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135.86deg, #051341 4.98%, #0b055b 70.93%, #1501a1 97.42%);
+  transform: skewY(-5deg);
+}
+.ContactUs-section .content18 .card9 h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.ContactUs-section .content18 .card9 p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+.ContactUs-section .content18 .card9 p.light {
+  color: black;
+  position: relative;
+  z-index: 3;
+}
+
+/*Indian Office */
+.contactUs-section2 {
+  padding: 3rem 0;
+}
+.contactUs-section2 .content19 {
+  max-width: 45rem;
+  width: calc(100% - 3rem);
+  margin: 59px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contactUs-section2 .content19 .contactUs-info {
+  max-width: 10rem;
+  justify-self: flex-end;
+  position: relative;
+}
+.contactUs-section2 .content19 .contactUs-info h1.light {
+  color: black;
+}
+.contactUs-section2 .content19 .contactUs-info h1.dark {
+  color: #fff;
+}
+.contactUs-section2 .content19 .contactUs-info p.light {
+  color: black;
+  height: 2.5rem;
+  width: 12rem;
+}
+.contactUs-section2 .content19 .contactUs-info p.dark {
+  color: white;
+  height: 3rem;
+  width: 12rem;
+}
+.contactUs-section2 .content19 .contactUs-info div:nth-of-type(1) {
+  position: absolute;
+  top: 3rem;
+  right: 24rem;
+}
+.contactUs-section2 .content19 .contactUs-info div:nth-of-type(1) img {
+  opacity: 0.5;
+}
+.contactUs-section2 .content19 .contactUs-info div:nth-of-type(1) img.dark {
+  filter: unset;
+}
+.contactUs-section2 .content19 .contactUs-info div:nth-of-type(1) img.light {
+  filter: invert(1);
+}
+.contactUs-section2 .content19 .contactUs-info div:nth-of-type(2) {
+  display: flex;
+  gap: 1rem;
+}
+.contactUs-section2 .content19 .contactUs-info div:nth-of-type(3) {
+  position: absolute;
+}
+.contactUs-section2 .content19 .logo13 {
+  display: flex;
+  align-items: center;
+  max-width: 17rem;
+  justify-self: center;
+  position: relative;
+  margin-left: 15rem;
+  margin-top: 23rem;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(1) img {
+  opacity: 0.5;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(1) img.dark {
+  filter: unset;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(1) img.light {
+  filter: invert(1);
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(2) {
+  position: absolute;
+  right: 4%;
+  top: 4rem;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(2) img {
+  opacity: 0.5;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(2) img.dark {
+  filter: unset;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(2) img.light {
+  filter: invert(1);
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(3) {
+  position: absolute;
+  top: 7rem;
+  left: 9rem;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(3) img {
+  opacity: 0.5;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(3) img.dark {
+  filter: unset;
+}
+.contactUs-section2 .content19 .logo13 div:nth-of-type(3) img.light {
+  filter: invert(1);
+}/*# sourceMappingURL=ContactUs.css.map */

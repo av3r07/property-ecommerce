@@ -1,0 +1,76 @@
+@use './variables/variables.scss' as v;
+ 
+.footer {
+    background-color: black;
+    padding: 4rem 0rem;
+
+
+    & .content {
+
+        & .footer-logo {
+            width: 10rem;
+            height: 100px;
+            display: flex;
+            margin: 0 auto;
+        }
+    
+        & menu > ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        & menu > ul > li {
+            width: fit-content;
+            justify-self: center;
+            padding: .5rem;
+            a {
+                text-decoration: none;
+                color: v.$dark-font-color;
+            }
+        }
+    
+        & .follow-us {
+           & P {
+            color: v.$dark-font-color;
+            text-align: center;
+           }
+            & section {
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                & div {
+                    width: 2rem;
+                    border-radius: 10px;
+                    & svg {
+                        transform: scale(1.5);
+                    }
+                }
+
+            }
+        }
+    }
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+    .footer {
+
+    & .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 70rem;
+        margin: 0 auto;
+
+            & .footer-logo {
+                margin: unset;
+            }
+        
+            & menu > ul {
+                grid-template-columns: 15rem 15rem;
+            }
+    }
+
+    }
+}

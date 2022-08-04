@@ -1,0 +1,252 @@
+.blogs-section {
+  display: flex;
+  justify-content: flex-end;
+  width: 78%;
+  position: relative;
+  margin: 12rem auto;
+  margin-left: 7rem;
+}
+.blogs-section h3 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+}
+.blogs-section h3.dark {
+  color: #fff;
+}
+.blogs-section h3.light {
+  color: black;
+}
+.blogs-section .content16 {
+  max-width: 28rem;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  left: -290px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  padding-top: 5rem;
+}
+.blogs-section .content16 .card7 {
+  padding: 0 16rem;
+  width: 44rem;
+  height: 26.5rem;
+  border: 0.1rem solid #FF4801;
+  background-color: #051341;
+  box-shadow: #fff;
+  position: relative;
+  border-radius: 25px;
+}
+.blogs-section .content16 .card7 :hover {
+  border-bottom: 1.5px solid #1B98F5;
+}
+.blogs-section .content16 .card7 h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.blogs-section .content16 .card7 p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  /* font-size: 30px; */
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 231;
+  /* width: 211px; */
+  height: 212px;
+  width: 256px;
+}
+.blogs-section .content16 .card7 p.light {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  /* font-size: 30px; */
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 231;
+  /* width: 211px; */
+  height: 212px;
+  width: 256px;
+}
+.blogs-section .content16 .card7 .bottom2 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+  padding-top: 4rem;
+  color: #fff;
+}
+.blogs-section .content16 .card7 .bottom2 .logo11 {
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  margin-left: 1rem;
+}
+.blogs-section .content16 .card7 .bottom2 div {
+  cursor: pointer;
+  width: 2rem;
+}
+.blogs-section .content16 .card7 .bottom2 div img.dark {
+  filter: unset;
+}
+.blogs-section .content16 .card7 .bottom2 div img.light {
+  filter: invert(1);
+}
+
+/* Blogs - Card*/
+.blogsCard-section {
+  padding: 2rem 0;
+}
+.blogsCard-section .content17 {
+  max-width: 65rem;
+  width: calc(100% - 2rem);
+  margin: 10 auto;
+  display: flex;
+  gap: 8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -95rem;
+}
+.blogsCard-section .content17 .card8 {
+  padding: 0 1rem;
+  max-width: 20rem;
+  border-radius: 20px;
+  height: 29rem;
+  max-width: 24rem;
+  position: relative;
+}
+.blogsCard-section .content17 .card8::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewY(5deg);
+}
+.blogsCard-section .content17 .card8::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 2;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135.86deg, #051341 4.98%, #0b055b 70.93%, #1501a1 97.42%);
+  transform: skewY(-5deg);
+}
+.blogsCard-section .content17 .card8 h3 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 3rem;
+}
+.blogsCard-section .content17 .card8 p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+.blogsCard-section .content17 .card8 p.light {
+  color: black;
+  position: relative;
+  z-index: 3;
+}
+.blogsCard-section .content17 .card8 .logo12 {
+  height: 2rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+.blogsCard-section .content17 .card8 .bottom3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+.blogsCard-section .content17 .card8 .bottom3 div {
+  cursor: pointer;
+  width: 2rem;
+}
+.blogsCard-section .content17 .card8 .bottom3 div img.dark {
+  filter: unset;
+}
+.blogsCard-section .content17 .card8 .bottom3 div img.light {
+  filter: invert(1);
+}
+
+/* search-bar section */
+.searchBar-section {
+  margin-left: 72rem;
+}
+.searchBar-section h3 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+}
+.searchBar-section h3.dark {
+  color: #fff;
+}
+.searchBar-section h3.light {
+  color: black;
+}
+.searchBar-section .content-wrapper {
+  width: 150rem;
+  width: calc(100% - 2rem);
+  margin: -42px auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.searchBar-section .content-wrapper .card-wrapper {
+  padding: 0 1rem;
+  width: 29rem;
+  height: 29rem;
+  border-top: 0.1rem solid #FF4801;
+  border-bottom: 0.1rem solid #FF4801;
+  border-left: 0.1rem solid #FF4801;
+  border-right: 0.1rem solid #FF4801;
+  border-radius: 2px;
+  position: relative;
+  border-radius: 25px;
+}
+.searchBar-section .content-wrapper .card-wrapper :hover {
+  border-bottom: 1.5px solid #1B98F5;
+}
+.searchBar-section .content-wrapper .card-wrapper h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.searchBar-section .content-wrapper .card-wrapper p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  font-size: 1.5rem;
+}
+.searchBar-section .content-wrapper .card-wrapper p.light {
+  color: black;
+  position: relative;
+  z-index: 3;
+}/*# sourceMappingURL=Blogs.css.map */

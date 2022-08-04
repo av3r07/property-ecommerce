@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:ital,wght@0,300;0,500;1,500&family=Poppins&family=Raleway:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+input,
+button,
+select,
+option,
+textarea,
+nav,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p,
+q,
+div,
+aside,
+section,
+label,
+table,
+td,
+th,
+tbody,
+thead,
+tr {
+  padding: 0%;
+  margin: 0%;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: -webkit-fill-available;
+}
+
+menu {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

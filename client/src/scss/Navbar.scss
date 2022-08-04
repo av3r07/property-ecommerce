@@ -1,0 +1,41 @@
+.nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown_link{
+    width: 100px;
+    color:white;
+}
+.selector{
+    color:rgb(206, 21, 21);
+    height: 38px;
+}
+.selector_mob{
+    height:50px;
+}
+.drawer_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown_link_mob{
+    width: 200px;
+    color:white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    color:white;
+}
+.link{
+    text-decoration: none;
+}
+.link > Button{
+    text-decoration: none;
+    // color:white;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    // border:1px solid white;
+}

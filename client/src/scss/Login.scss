@@ -1,0 +1,71 @@
+.main_login{
+    height:100vh;
+    width: 100%;
+    background-color: rgb(227, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_box{
+    min-width: 40%;
+    // min-height: 65%;
+    background-color: white;
+    box-shadow: 1px 5px 10px 2px #888888;
+    height: auto;
+    border: none;
+    text-align: center;
+}
+.input_field{
+    margin: 30px auto;
+}
+.input_field > input{
+    border: 1px solid rgb(202, 199, 199);
+    padding:10px;
+    margin:15px auto;
+    width:60%;
+}
+.input_field > button{
+    width:60%;
+    border:1px solid rgb(202, 199, 199);
+    border-radius: 0px;
+    background-color: rgb(19, 124, 176);
+    color:white;
+    margin:15px auto 10px auto;
+}
+.login_box >h3{
+    margin:20px auto;
+}
+.login_box >hr{
+    width: 90%;
+}
+
+.login_box > .forgot{
+    padding:20px auto;
+    color:blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .login_box{
+        min-width: 95%;
+        // min-height: 65%;
+        background-color: white;
+        box-shadow: 1px 5px 10px 2px #888888;
+        height: auto;
+        border: none;
+        text-align: center;
+    }
+  }
+  @media screen and (min-device-width: 601px) and (max-device-width: 1000px){
+    .login_box{
+        min-width: 90%;
+        // height: 40%;
+        background-color: white;
+        box-shadow: 1px 5px 10px 2px #888888;
+        height: auto;
+        border: none;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,307 @@
+.whitelint {
+  padding: 3rem 0;
+}
+.whitelint .content8 {
+  max-width: 75rem;
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.whitelint .content8 .whitelintscholar-info {
+  max-width: 30rem;
+  justify-self: flex-end;
+  position: relative;
+}
+.whitelint .content8 .whitelintscholar-info h1 {
+  color: #FF4801;
+}
+.whitelint .content8 .whitelintscholar-info p.light {
+  color: black;
+}
+.whitelint .content8 .whitelintscholar-info p.dark {
+  color: white;
+}
+.whitelint .content8 .whitelintscholar-info div:nth-of-type(1) {
+  position: absolute;
+  top: 3rem;
+  right: 24rem;
+}
+.whitelint .content8 .whitelintscholar-info div:nth-of-type(1) img {
+  opacity: 0.5;
+}
+.whitelint .content8 .whitelintscholar-info div:nth-of-type(1) img.dark {
+  filter: unset;
+}
+.whitelint .content8 .whitelintscholar-info div:nth-of-type(1) img.light {
+  filter: invert(1);
+}
+.whitelint .content8 .whitelintscholar-info div:nth-of-type(2) {
+  display: flex;
+  gap: 1rem;
+}
+.whitelint .content8 .whitelintscholar-info div:nth-of-type(3) {
+  position: absolute;
+}
+.whitelint .content8 .logo4 {
+  display: flex;
+  align-items: center;
+  width: 1rem;
+  justify-self: center;
+  position: relative;
+  height: 40px;
+  left: 401px;
+  top: 923px;
+  padding-left: 29rem;
+  border-radius: 0px;
+}
+.whitelint .content8 .logo4 div:nth-of-type(1) img {
+  opacity: 0.5;
+}
+.whitelint .content8 .logo4 div:nth-of-type(1) img.dark {
+  filter: unset;
+}
+.whitelint .content8 .logo4 div:nth-of-type(1) img.light {
+  filter: invert(1);
+}
+.whitelint .content8 .logo4 div:nth-of-type(2) {
+  position: absolute;
+  right: 7rem;
+  top: 4rem;
+}
+.whitelint .content8 .logo4 div:nth-of-type(2) img {
+  opacity: 0.5;
+}
+.whitelint .content8 .logo4 div:nth-of-type(2) img.dark {
+  filter: unset;
+}
+.whitelint .content8 .logo4 div:nth-of-type(2) img.light {
+  filter: invert(1);
+}
+.whitelint .content8 .logo4 div:nth-of-type(3) {
+  position: absolute;
+  top: 7rem;
+  left: 9rem;
+}
+.whitelint .content8 .logo4 div:nth-of-type(3) img {
+  opacity: 0.5;
+}
+.whitelint .content8 .logo4 div:nth-of-type(3) img.dark {
+  filter: unset;
+}
+.whitelint .content8 .logo4 div:nth-of-type(3) img.light {
+  filter: invert(1);
+}
+
+/* certificate for student */
+.Certificate-section {
+  padding: 4rem 0;
+}
+.Certificate-section h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.Certificate-section h1.dark {
+  color: #fff;
+}
+.Certificate-section h1.light {
+  color: black;
+}
+.Certificate-section .content9 {
+  max-width: 75rem;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Certificate-section .content9 .card4 {
+  padding: 0 1rem;
+  max-width: 20rem;
+  border-radius: 20px;
+  position: relative;
+}
+.Certificate-section .content9 .card4::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewY(5deg);
+}
+.Certificate-section .content9 .card4::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 2;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135.86deg, #051341 4.98%, #0b055b 70.93%, #1501a1 97.42%);
+  transform: skewY(-5deg);
+}
+.Certificate-section .content9 .card4 h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.Certificate-section .content9 .card4 p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+.Certificate-section .content9 .card4 p.light {
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+.Certificate-section .content9 .card4 .logo5 {
+  height: 2rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+
+@media screen and (min-width: 1350px) {
+  .hero .content .hero-info div:nth-of-type(1) {
+    position: absolute;
+    top: 3rem;
+    right: 32rem;
+  }
+}
+/* certficate for professional */
+.Certificate-section1 {
+  padding: 4rem 0;
+}
+.Certificate-section1 h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.Certificate-section1 h1.dark {
+  color: #fff;
+}
+.Certificate-section1 h1.light {
+  color: black;
+}
+.Certificate-section1 .content10 {
+  max-width: 75rem;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Certificate-section1 .content10 .card5 {
+  padding: 0 1rem;
+  max-width: 20rem;
+  border-radius: 20px;
+  position: relative;
+}
+.Certificate-section1 .content10 .card5::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewY(5deg);
+}
+.Certificate-section1 .content10 .card5::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 2;
+  border-radius: 25px;
+  left: 0rem;
+  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135.86deg, #051341 4.98%, #0b055b 70.93%, #1501a1 97.42%);
+  transform: skewY(-5deg);
+}
+.Certificate-section1 .content10 .card5 h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.Certificate-section1 .content10 .card5 p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+.Certificate-section1 .content10 .card5 p.light {
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+.Certificate-section1 .content10 .card5 .logo6 {
+  height: 2rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+
+/* our academic partner */
+.Certificate-section2 {
+  padding: 4rem 0;
+}
+.Certificate-section2 h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.Certificate-section2 h1.dark {
+  color: #fff;
+}
+.Certificate-section2 h1.light {
+  color: black;
+}
+.Certificate-section2 .content11 {
+  max-width: 75rem;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  display: flex;
+}
+.Certificate-section2 .content11 .logo7 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 1350px) {
+  .hero .content .hero-info div:nth-of-type(1) {
+    position: absolute;
+    top: 3rem;
+    right: 32rem;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .hero .content .hero-info div:nth-of-type(1) {
+    position: absolute;
+    top: 3rem;
+    right: 32rem;
+  }
+}
+@media screen and (max-width: 786px) {
+  .hero .content .hero-logo {
+    margin-top: 4rem;
+    position: inherit;
+  }
+}/*# sourceMappingURL=WhiteLintScholar.css.map */

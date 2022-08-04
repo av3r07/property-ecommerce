@@ -1,0 +1,66 @@
+.list_main {
+  width: 90%;
+  margin: auto auto;
+}
+
+.list_main > table {
+  width: 90%;
+  margin: auto auto;
+  background-color: rgb(233, 232, 232);
+  text-align: center;
+}
+
+tr {
+  height: 10vh;
+}
+
+.list_main > table,
+tr {
+  border: 1px solid rgb(186, 183, 183);
+}
+
+.table_head {
+  background-color: rgb(88, 136, 227);
+}
+
+.modal_div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 50%;
+  color: white;
+  margin: auto auto;
+  transform: "translate(-50%, -50%)";
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 130px 10px;
+  box-shadow: 1px 5px 10px 2px #888888;
+  border-radius: 10px;
+}
+
+.modal_action > Button {
+  float: right;
+  margin-top: 50px;
+}
+
+.typo {
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .modal_div {
+    text-align: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 90%;
+    margin: auto auto;
+    border: none;
+    padding: 190px 0px;
+    box-shadow: 1px 5px 10px 2px #888888;
+  }
+}/*# sourceMappingURL=List.css.map */
